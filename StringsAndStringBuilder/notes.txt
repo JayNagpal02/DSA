@@ -1,0 +1,51 @@
+[
+    Q => Qustion
+    S => Solution
+    N => Note
+    E => Explanation
+    TC => Time Complexity
+    SC => Space Complexity
+    n => size of array
+    A => Answer
+    C => Concepts
+]
+
+1. Q. What is String?
+A:[
+    String name = "Jay Nagpal"
+    String => Datatype
+    name => reference variable
+    "Jay Nagpal" => object
+]
+
+2. Q. How it is stored in memory?
+A:[
+    String a = "Hello"
+    String b = "Hello"
+    Q:Is it creating two different objects or they both are pointing to the same object?
+    C:[
+        1. String pool : It is a seperate memory pool in the heap memory.
+        2. Immutability : 
+    ]
+    A:[
+        Both are pointing to the same object
+    ]
+]
+
+3. Q. Why we cant modify string objects?
+
+4. Comparsion of String.
+A:[
+    1. == Method:[
+        it check if reference variables are pointing to same object
+    ]
+    2. equals():[
+        
+    ]
+]
+
+5. Q. How to create different objects of the same value in memory?
+A:[
+    String a = new String("Hello")
+    String b = new String("Hello")
+]

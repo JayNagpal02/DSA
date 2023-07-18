@@ -1,0 +1,45 @@
+[
+    Q => Qustion
+    S => Solution
+    N => Note
+    E => Explanation
+    TC => Time Complexity
+    SC => Space Complexity
+    n => size of array
+    A => Answer
+    C => Concepts
+]
+
+1. Q: arr = [18, 12, 9, 14, 77, 50]. Find wheter 14 exists in array or not?
+S: using 'for each' loop
+N: If value is find then it will return index value else it will return -1.
+E: Lineear Search Algorithm say say for the first element of array and
+    scans the array until it finds the element we are looking for or the entire array is scaned.
+    Each for the elements in the array in linear way that index to '0' to 'n-1'.
+TC: best case => O(1)   // constant
+    worst case => O(n)
+
+2. Q: How many checks or comparsions will the loop make in 'best' case i.e. element found at 0th index?
+A:[
+    arr = [8, 9, 12, 18, ..... 200 elements]
+    target = 8
+    Only 1 comparsion in best case
+    Now, n = 1 lakh
+    arr = [18, 12, 9, 7, ...... 1 lakh elements]
+    target = 18
+    Only 1 comparsion in best case
+]
+
+3. Q: How many checks or comparsions will the loop make in 'worst' case i.e. element found at 0th index?
+A: [
+    You do not find the target item.
+    Iterate through each and every element in the array and in the end it says i did not find it.
+    n = 100 => 100 comparsions => 100 ms
+    n = 200 => 200 comparsions => 200 ms
+    n = 1 lakh  => 1 lakh comparsions => 100000 ms => 100 seconds
+]
+
+4. Q: arr = [18, 12, -7, 3, 14, 28]. Search for 3 in the range of index [1, 4]?
+A: [
+    N: read from {SearchInRange.java} file
+]
